@@ -32,7 +32,7 @@ export class myCiklum{
         this.myRequests = element(by.className("sidebar__menu sidebar__menu_active sidebar__menu_vacation"));
         this.openPlannerBtn = element(by.id("vacation_widget_item_planner"));
         this.pendingSickDays = element(by.id("sick_documented_pending"));
-        this.createRequest = element(by.id("315"));
+        this.createRequest = element(by.id("61"));
         this.requestDropdown = element.all(by.id("main_request"));
         this.requestDD = element(by.id("main_request"));
         this.requestSubmitBtn = element(by.id("submit"));
