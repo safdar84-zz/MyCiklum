@@ -192,6 +192,7 @@ Given('I will navigate to Calc Site', async () => {
         browser.sleep(5000);
       
         console.log("Previously, sick leaves were: " +sickDays);
+        console.log("Code updated from Git");
         
   });
 
