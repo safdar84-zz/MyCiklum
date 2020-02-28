@@ -1,0 +1,114 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "I am going to validate my Ciklum leaves scenarios",
+    "line": 1,
+    "id": "i-am-going-to-validate-my-ciklum-leaves-scenarios",
+    "tags": [],
+    "uri": "features\\demo.feature",
+    "elements": [
+      {
+        "id": "i-am-going-to-validate-my-ciklum-leaves-scenarios;my-ciklum-documented-leaves-process",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "My Ciklum Documented leaves process",
+        "tags": [
+          {
+            "name": "@myCiklum",
+            "line": 47
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 49,
+            "name": "I will login to my ciklum site",
+            "match": {
+              "location": "stepDefinitions\\steps.ts:145"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 39745000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "I will navigate to My Requests section in Planner module",
+            "match": {
+              "location": "stepDefinitions\\steps.ts:158"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14092000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "I will collect value of my pending sick Days",
+            "match": {
+              "location": "stepDefinitions\\steps.ts:166"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "I will click on new Request and select sick day and create Request",
+            "match": {
+              "location": "stepDefinitions\\steps.ts:175"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 20868000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "Count of pending leaves should be increamented",
+            "match": {
+              "location": "stepDefinitions\\steps.ts:199"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13479000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "stepDefinitions\\hooks.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
